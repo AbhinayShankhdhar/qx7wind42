@@ -1,0 +1,13 @@
+# Run the whole app with:  docker compose up --build
+# Then open http://localhost:3000
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "8000:8000"
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend

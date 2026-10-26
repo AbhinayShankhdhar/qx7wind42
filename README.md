@@ -10,7 +10,8 @@ purchase decisions made in **January 2026**:
    It quantifies the error (typical miss, bias, worst miss, shortfall buffer) and breaks it down by
    lead time, hour of day and delivery day.
 
-**Live app:** `<add your Vercel link here>`
+<!-- **Live app:** `<add your Vercel link here>` -->
+   **Live app:** https://qx7wind42.vercel.app
 
 Data: Elexon BMRS, national level only:
 [FUELHH](https://bmrs.elexon.co.uk/api-documentation/endpoint/datasets/FUELHH/stream) (actual generation, `fuelType = WIND`) and
